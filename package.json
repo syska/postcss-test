@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "build:css:dev": "postcss ./Styles/test.css --verbose -o ./wwwroot/css/test.css --watch",
+    "build:css:dev:poll": "postcss ./Styles/test.css --verbose -o ./wwwroot/css/test_vs.css --watch --poll"
+  },
+  "version": "1.0.0",
+  "name": "asp.net",
+  "private": true,
+  "devDependencies": {
+    "cross-env": "7.0.3",
+    "autoprefixer": "10.3.1",
+    "postcss": "8.3.6",
+    "postcss-cli": "8.3.1",
+    "tailwindcss": "2.2.7"
+  }
+}
